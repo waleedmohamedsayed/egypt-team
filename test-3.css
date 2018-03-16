@@ -1,0 +1,285 @@
+*
+{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+   sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body{
+  height: 3000px;
+  font-family: tahoma , arial;
+}
+/* start framework*/
+.uppercase{text-transform: uppercase;}
+.man-color{color:#e8ec7e}
+.textcenter{text-align: center;}
+.header section li a.active {color:#e8ec7e}
+.container
+{
+  margin-left: 35px;
+  margin-right: 35px;
+
+}
+.paragraph{color:#928f8f;line-height: 1.8}
+.clearfix{clear: both;}
+.fix{position: fixed;
+background-color: #333;
+opacity: 1;
+top:0;
+left:0;
+width: 100%;
+height: 80px;
+color: #fff;
+z-index: 555;
+}
+/* start framework*/
+.header
+{
+  background-image: url('1.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  width:100%
+}
+ .overly
+{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+
+
+}
+.header section
+{
+  padding: 10px;
+  color:#eee;
+  font-size: 25px;
+  width: 100%;
+  top: 0;
+
+
+}
+.header section h2
+{
+  float: left;
+  width: 24%;
+  display: block;
+  margin-left: 6%
+
+
+}
+
+.header section ul{
+  float:right;
+  list-style:none;
+  width: 40%;
+  margin-left: 20%
+}
+.header section ul li{
+  display: inline-block;
+  padding: 10px
+}
+.header section ul li a{
+  text-decoration: none;
+
+  color: #fff
+}
+.header .intro h2
+{
+color:#fff
+}
+.header .intro h2 span{
+  color:#e8ec7e
+}
+.header .intro p
+{
+  color:#eae5e5;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-top: 10px
+}
+.header .intro  button
+{
+  width: 122px;
+      height: 50px;
+      border-radius: 10px;
+      padding: 10px;
+      background-color: none;
+      background: none;
+      color: #fff;
+      font-weight: bold;
+      border: 1px solid #e8ec7e;;
+      outline: 0;
+      margin-top: 30px;
+      color: #e8ec7e;
+
+}
+.header .intro  button:hover
+{
+  background-color: #e8ec7e;
+  color:#000;
+  cursor: pointer;
+  font-weight: bold;
+
+
+
+}
+.header .overly .arraw
+{
+  position: absolute;
+      right: 0;
+      color: #e8ec7e;
+      bottom: 0;
+      text-align: center;
+      width: 100%;
+      padding: 0 0 20px 0
+
+}
+/*start fixed menu*/
+/*end fixed menu*/
+.fixed-menu
+{
+  color: #eee;
+background-color: #e8ec7e;
+position: fixed;
+top: 0;
+height: 100%;
+width: 220px;
+font-size: 25px;
+text-align: center;
+padding: 15px;
+z-index: 99999;
+left: -220px;}
+.fixed-menu .fa-angle-double-right
+{
+  color: #000;
+    position: absolute;
+    right: -43px;
+    background-color: #e8ec7e;
+    top: 85px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 0 15px 15px 0;
+}
+/* statrt feauters */
+.feauters
+{
+  margin-top: 45px
+}
+.feauters .box
+{
+  width: 22%;
+  float:left;
+  margin-right: 4%;
+  margin-top: 45px
+}
+.feauters .box:last-child
+{
+  margin-right: 0
+}
+.feauters .box i
+  {
+    border: 1px solid #e8ec7e;
+height: 80px;
+width: 80px;
+line-height: 80px;
+border-radius: 50%;
+  }
+  .feauters .box i:hover{background-color: #e8ec7e;color:#000}
+.feauters .box h2{
+  margin-top: 15px;
+  color:#777;
+  margin-bottom: 15px;
+  margin-bottom: 20px
+}
+
+
+/* end feauters */
+/*start subscripe*/
+.subscripe
+{
+  background-image: url('3.png');
+  background-size: cover;
+  width: 100%;background-repeat: no-repeat;
+  height:280px;
+  overflow: hidden;
+  margin-top: 32px;
+  position:
+
+
+}
+.subscripe .overly{height: 320px;background-size: cover;}
+.subscripe input[type="text"]
+{
+  width:450px;
+  height: 51px;
+  border-radius: 10px;
+  margin-top: 130px;
+  margin-right: 20px;
+  outline: 0;
+  padding: 17px;
+  font-size: 14px
+}
+.subscripe form button{    width: 142px;
+    height: 51px;
+  background-color: #e8ec7e;
+    color: #000;
+         border: 1px solid  #e8ec7e;
+     border-radius: 10px;
+   font-weight: bold;}
+     .subscripe form button:hover{color:#fff;background-color:#000;font-weight: bold;}
+/*end subscripe*/
+/*start story*/
+.story
+{
+
+
+}
+.story .part1
+{
+  width: 40%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 110px
+}
+.story .part1 .no1img
+{
+  background-image: url('3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 550px;
+  height: 300px;
+  margin-bottom: 20px
+
+}
+.story .part1 p{
+  position: relative;
+      top: 44px;
+      right: 47px;
+      border-right: 8px solid #e8ec7e
+}
+.story .part2
+{
+  width: 40%;
+  float: left;
+}
+.story .part2 .no2img
+{
+  background-image: url('4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 550px;
+  height: 300px;
+  margin-bottom: 20px;
+  position: relative;
+  top: 280px;
+  right: 30px;
+}
+.story .part2  p{
+  position: relative;
+  top: -175px;
+  left: 127px;
+  border-right: 8px solid #e8ec7e
+
+}
+/*end story*/
